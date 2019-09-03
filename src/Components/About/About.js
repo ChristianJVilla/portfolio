@@ -10,7 +10,7 @@ const About = () => {
             <section>
             <p className="me">
             Hi! I'm Christian, a <span className="keyword"> Software Engineer </span> who enjoys creating, learning, and building things that <span className="keyword">impact</span> peoples lives on the web. I develop websites and work on projects to grow and extend my talents.
-            After leading teams in the corporate and clinical fields, I Wanted to push myself to the next level and strive in the Tech industry through Software Engineering. I am a <span className="keyword">Full Stack Engineer</span> that creates an organized backend and a beautiful frontend!
+            After leading teams in the corporate and clinical fields, I wanted to push myself to the next level and strive in the Tech industry through Software Engineering. I am a <span className="keyword">Full Stack Engineer</span> that creates an organized backend and a beautiful frontend!
             <br/>
             Here's a few <span className="keyword">technologies</span> I've been working with recently:
             </p>
