@@ -1,0 +1,35 @@
+.contact-me {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.contact-li {
+	font-size: 25px; 
+	list-style-type: none;
+}
+
+.contact-li a {
+	color: rgb(144, 251, 220);
+}
+
+.contact-li li {
+	margin-top: 10px;
+}
+
+.contact-li:last-child {
+	margin-bottom: 200px;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3) {
+	.contact-li:last-child {
+		margin-bottom: 100px;
+	}
+
+	.contact-me {
+		margin-top: 50px;
+	}
+}

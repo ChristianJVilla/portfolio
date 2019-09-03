@@ -1,0 +1,65 @@
+
+
+.text {
+    margin-top: 100px;
+}
+
+.hook {
+margin-top: 40px;
+color: rgb(144, 251, 220);
+margin-left: 50px;
+
+}
+
+.name, .build {
+font-size: 80px;
+margin-left: 40px;
+}
+
+.name {
+color: white;
+}
+
+.build {
+color: gray;
+}
+
+.lead, .seeker, .software{
+color: rgb(144, 251, 220);
+}
+
+.Cursor {
+color: rgb(144, 251, 220) !important;
+font-size: 80px;
+}
+
+.description {
+    font-size: 20px;
+    color: gray;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.projects:hover {
+    opacity: .5;
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3) {
+	.description {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .name, .build {
+        font-size: 40px;
+    }
+
+    .Cursor {
+        font-size: 40px;
+    }
+}

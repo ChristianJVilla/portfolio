@@ -1,0 +1,27 @@
+.navbar {
+    background-color: rgb(13, 25, 45) !important;
+}
+
+.nav-link {
+    color: rgb(144, 251, 220) !important;
+    margin: 10px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.fa-cuttlefish {
+    font-size: 50px;
+}
+.resume {
+    border: 2px solid rgb(144, 251, 220);
+}
+
+li button {
+    background: none !important;
+    border: none;
+}
+
+

@@ -1,0 +1,64 @@
+.about {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 100px 0px 40px;
+    text-align: center;
+    color: white;
+}
+
+.about::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 300px;
+    background-color: rgb(144, 251, 220);
+    top: -5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.keyword {
+    color:rgb(144, 251, 220);
+    font-size: 24px;
+}
+
+.me {
+    color: gray;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.christian {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.table {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.table-dark {
+    background-color: rgb(13, 25, 45);
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3) {
+	.about {
+        margin-top: 50px;
+    }
+
+    .me {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
