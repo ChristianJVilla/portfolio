@@ -3,6 +3,7 @@ import Pong from './media/pong.png';
 import Trade from './media/trade.png';
 import Devbook from './media/devbook.png';
 import Wayfarer from './media/wayfarer.png';
+import Tailored from './media/tailored.png';
 import {Table} from 'react-bootstrap';
 import './Projects.css';
 
@@ -14,27 +15,27 @@ const Projects = () => {
         <div className="col-lg-4">
         <div className="content">
         <div className="content-overlay"></div>
-            <img className="projects pong content-image" src={Pong} alt="Vacation" width="350" height="300" />
+            <img className="projects pong content-image" src={Tailored} alt="Vacation" width="350" height="300" />
             <div className="content-details fadeIn-left">
-          <a href="https://pages.git.generalassemb.ly/christianvilla/Project-0-game/" >
+          <a href="https://tailoredforme.herokuapp.com" >
           <h3>App</h3>
           </a>
-          <a href="https://git.generalassemb.ly/christianvilla/Project-0-game">
+          <a href="https://git.generalassemb.ly/christianvilla/tailored-frontend">
             <h3>GitHub</h3>
           </a>
           </div>
           </div>
-          <h2 className="project-title">Pong solo</h2>
+          <h2 className="project-title">Tailored</h2>
           <Table hover border variant="dark">
             <tbody className="table keyword">
                 <tr>
-                <td><i className="fab fa-html5"></i> HTML </td>
-                <td><i className="fab fa-css3-alt"></i> CSS </td>
-                <td><i className="fab fa-js"></i> JavaScript </td>
+                <td><i class="fab fa-react"></i> React</td>
+                <td><i class="fab fa-node"></i> Node.js</td>
+                <td><i class="fas fa-server"></i> Express</td>
                 </tr>
             </tbody >
             </Table>
-          <p className="project-description">A solo pong game that challenges your reaction time.</p>
+          <p className="project-description">An artist app that allows users and Artists to interact with eachother.</p>
         </div>
         <div className="col-lg-4">
         <div className="content">
@@ -110,6 +111,31 @@ const Projects = () => {
             </tbody >
             </Table>
           <p className="project-description">A selling platform where you can buy and sell products.</p>
+        </div>
+        <div className="col-lg-4">
+        <div className="content">
+        <div className="content-overlay"></div>
+            <img className="projects pong content-image" src={Pong} alt="Vacation" width="350" height="300" />
+            <div className="content-details fadeIn-left">
+          <a href="https://pages.git.generalassemb.ly/christianvilla/Project-0-game/" >
+          <h3>App</h3>
+          </a>
+          <a href="https://git.generalassemb.ly/christianvilla/Project-0-game">
+            <h3>GitHub</h3>
+          </a>
+          </div>
+          </div>
+          <h2 className="project-title">Pong solo</h2>
+          <Table hover border variant="dark">
+            <tbody className="table keyword">
+                <tr>
+                <td><i className="fab fa-html5"></i> HTML </td>
+                <td><i className="fab fa-css3-alt"></i> CSS </td>
+                <td><i className="fab fa-js"></i> JavaScript </td>
+                </tr>
+            </tbody >
+            </Table>
+          <p className="project-description">A solo pong game that challenges your reaction time.</p>
         </div>
       </div>
         </div>
