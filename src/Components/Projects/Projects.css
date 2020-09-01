@@ -5,8 +5,9 @@
 }
 
 .project-description {
-    color: gray; 
+    color: gray;
     font-size: 25px;
+    text-align: center;
 }
 
 .projects {
@@ -26,25 +27,25 @@
 }
 
 .content .content-overlay {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     position: absolute;
-    height: 99%;
+    top: 40px;
+    height: 100%;
     width: 100%;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
     opacity: 0;
     -webkit-transition: all 0.4s ease-in-out 0s;
     -moz-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
 }
-.content:hover .content-overlay{
+
+.content:hover .content-overlay {
     opacity: 1;
 }
-.content-image{
+
+.content-image {
     width: 100%;
 }
+
 .content-details {
     position: absolute;
     text-align: center;
@@ -61,18 +62,19 @@
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
 }
-.content:hover .content-details{
+
+.content:hover .content-details {
     top: 50%;
     left: 50%;
     opacity: 1;
 }
 
-.content:hover .content-image {
+/* .content:hover .content-image {
     margin-top: 0;
     text-decoration: none;
-}
+} */
 
-.content-details h3{
+.content-details h3 {
     color: #fff;
     font-weight: 500;
     letter-spacing: 0.15em;
@@ -80,7 +82,7 @@
     text-transform: uppercase;
 }
 
-.fadeIn-left{
+.fadeIn-left {
     left: 20%;
 }
 
